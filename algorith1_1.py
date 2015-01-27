@@ -5,7 +5,7 @@ Implement an algorithm to determine if a string has all unique characters. What 
 import sys
 
 def isUnique(str1):
-    ch = [0]*2555556
+    ch = [0]*256
     for s in str1:
         _index = ord(s) - ord('a')
         if ch[_index] == 1:
