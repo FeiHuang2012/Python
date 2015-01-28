@@ -10,8 +10,8 @@ def replaceStr(str1, ch1, ch2):
     listStr1 = list(str1)
     _lenListStr1 = len(listStr1)
     for i in range(_lenListStr1):
-        if listStr1[i-1] == ch1:
-            listStr1[i-1] = ch2
+        if listStr1[i] == ch1:
+            listStr1[i] = ch2
     str1List = ''.join(listStr1)
     return str1List
 
